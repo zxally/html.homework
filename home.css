@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    width: 100%;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    list-style: none;
+    background-color: aquamarine;
+    height: 60px;align-items: center;
+}
+nav li a {
+    padding: 20px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: blueviolet;
+}
+.Welcome {
+    height: 60vh;
+    width: 100%;  
+    background: palevioletred;
+}
+.Welcome h1 {
+    text-align: center;
+    color: rgb(0, 158, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+section {
+    display: flex;
+    justify-content: space-evenly;
+}
+.card {
+    width: 400px;
+    height: 200px;
+    margin-top: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.box section .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: brown;
+    margin-top: 10px;
+}
+
+
+
